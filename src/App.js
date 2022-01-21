@@ -19,7 +19,7 @@ function App() {
 function Homepage() {
   return(
     <div>
-      <h1>Homepage</h1>
+      <h1>Homepage is working</h1>
     </div>
   )
 }
@@ -27,7 +27,7 @@ function Homepage() {
 function Dashboardpage() {
   return(
     <div>
-      <h1>Dashboard page</h1>
+      <h1>Dashboard page is working</h1>
     </div>
   )
 }
