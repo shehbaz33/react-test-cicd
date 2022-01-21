@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -15,6 +14,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Second commit test</h1>
       </header>
     </div>
   );
