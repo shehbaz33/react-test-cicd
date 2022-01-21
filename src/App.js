@@ -1,22 +1,35 @@
 import './App.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>This is my first project</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1>Second commit test</h1>
-      </header>
-    </div>
+   <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Homepage />}/>
+      <Route path="/dashboard" element={<Dashboardpage />}/>
+    </Routes>
+   </BrowserRouter>
   );
+}
+
+function Homepage() {
+  return(
+    <div>
+      <h1>Homepage</h1>
+    </div>
+  )
+}
+
+function Dashboardpage() {
+  return(
+    <div>
+      <h1>Dashboard page</h1>
+    </div>
+  )
 }
 
 export default App;
